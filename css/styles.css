@@ -1,0 +1,420 @@
+*{ margin:0; padding:0; border:0;}
+
+@media screen and (max-width: 1260px )
+{
+/*Navbar*/
+    .navbar{
+        position: absolute;
+        background: rgba(4, 56, 115, 1);
+        height: 96px;
+        width: 100%;
+    }
+    .logomarca{
+        position: absolute;
+        padding-left: 120px;
+        padding-top: 29px;
+        width: 191px;
+        height: 34PX;
+    }
+    
+    .products{
+        padding-top: 39px;
+        padding-left: 530px;
+        position: absolute;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .a1{
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 595px;
+       
+    }
+
+
+    .solutions {
+        padding-top: 39px;
+        padding-left: 640px;
+        position: absolute;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .a2{
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 705px;
+    }
+
+    .resources {
+        position: absolute;
+        padding-top: 39px;
+        padding-left: 750px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    
+    .a3{
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 825px;
+    }
+
+
+    .pricing{
+        position: absolute;
+        padding-top: 39px;
+        padding-left: 870px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .a4{
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 920px;
+    }
+
+
+    .btn{
+        position: absolute;
+        padding-top: 27px;
+        padding-left: 960px;
+    }
+
+    .btn-login{
+        position: absolute;
+        background: rgba(255, 228, 146, 1);
+        padding-top: 15px;
+        padding-left: 27px;
+        padding-right: 27px;
+        border-radius: 8px;
+        padding-bottom: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: -0.02em;
+        color: #043873;
+    }
+
+
+    .btn2{
+        position: absolute;
+        padding-top: 40px;
+        padding-left: 1065px;
+    }
+
+
+    .btn-try{
+        background: #4F9CF9;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 40px;
+        border-radius: 8px;
+        padding-bottom: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 23px;
+        /* identical to box height, or 128% */
+
+        letter-spacing: -0.02em;
+
+        color: #FFFFFF;
+    }
+
+
+
+    .seta {
+        position: absolute;
+        padding-top: 47px;
+        padding-left: 1220px;
+    }
+/*Home*/
+    .home{
+        background: rgba(4, 56, 115, 1);
+        height: 700px;
+    }
+    
+    .espiral-home{
+        position: absolute;
+        padding-top: 200px;
+        width: 1260px;
+    }
+
+
+    .titulo-home{
+        padding-top: 325.5px;
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        padding-left: 120px;
+    }
+
+    .descricao-home{
+        padding-top: 397px;
+        padding-left: 120px;
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+
+    .btn3{
+        position: absolute;
+        padding-top: 470px;
+        padding-left: 120px;
+    }
+    
+    .btn-home{
+        background: #4F9CF9;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 40px;
+        border-radius: 8px;
+        padding-bottom: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 23px;
+        /* identical to box height, or 128% */
+
+        letter-spacing: -0.02em;
+
+        color: #FFFFFF;
+    }
+
+    .seta2 {
+        position: absolute;
+        padding-top: 476px;
+        padding-left: 275px;
+    }
+    
+
+    /*WORK*/
+
+    .work-img{
+        position: absolute;
+        padding-top: 210px;
+        padding-left: 110px;
+        width: 550px;
+        padding-bottom: 150px;
+    }
+
+    .work-grifado{
+        position: absolute;
+        padding-top: 390px;
+        padding-left: 860px;
+        height: 24px;
+    }
+
+    .titulo-work{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        letter-spacing: -0.02em;
+        color: #212529;
+        padding-left: 710px;
+        padding-top: 350px;
+    }
+
+    .descricao-work{
+        position: absolute;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: -0.02em;
+        color: #212529;
+        padding-top: 425px;
+        padding-left: 720px;
+        width: 509px;
+    }
+
+
+    .btn4{
+        position: absolute;
+        padding-top: 525px;
+        padding-left: 720px;
+    }
+
+    .try{
+        background: #4F9CF9;
+        padding-top: 18px;
+        padding-left: 40px;
+        padding-right: 65px;
+        border-radius: 8px;
+        padding-bottom: 18px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+    .seta3 {
+        position: absolute;
+        padding-top: 528px;
+        padding-left: 838px;
+        height: 15px;
+    }
+
+    /*footer*/
+
+    .p-footer{
+        padding-top: 900px;
+    }
+
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 81px;
+        background: rgba(4, 56, 115, 1);
+    }
+
+    .termo{
+        position: absolute;
+        padding-left: 120px;
+        padding-top: 29px;
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+
+    .seguranca{
+        position: absolute;
+        padding-left: 297px;
+        padding-top: 29px;
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+    .status{
+        position: absolute;
+        padding-left: 417px;
+        padding-top: 29px;
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+
+    }
+
+    .direitos{
+        position: absolute;
+        padding-left: 524px;
+        padding-top: 29px;
+        text-decoration: none;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: -0.02em;
+        color: #FFFFFF;
+    }
+
+
+    .facebook {
+        position: absolute;
+        padding-top: 32px;
+        padding-left: 1000px;
+    }
+
+
+    .twitter {
+        position: absolute;
+        padding-top: 35px;
+        padding-left: 1030px;
+    }
+
+
+    .linkedin {
+        position: absolute;
+        padding-top: 33px;
+        padding-left: 1070px;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .navbar{
+        background: rgba(4, 56, 115, 1);
+        height: 69px;
+        width: 100%;
+    }
+
+    .logomarca{
+        padding-left: 32px;
+        padding-top: 16px;
+        width: 144px;
+        height: 34PX;
+    }
+}
+
+
+
+@media screen and (max-width: 320px){
+    .navbar{
+        background: rgba(4, 56, 115, 1);
+        height: 56px;
+        width: 100%;
+    }
+
+    .logomarca{
+        padding-left: 16px;
+        padding-top: 16px;
+        width: 133.97px;
+        height: 24PX;
+    }
+}
